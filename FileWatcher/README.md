@@ -6,11 +6,12 @@ We are using inotfy tool in linux for the pupose
 
 ### installation [debian]
 -------------
-apt-get install inotify-tools
+
+    apt-get install inotify-tools
 
 simple usage of this module is like follows
 
-######    inotifywait -q -r -m -e modify,create,delete <Directory/File to monitor>
+    inotifywait -q -r -m -e modify,create,delete <Directory/File to monitor>
 
 ### Documentation
 ----------------
