@@ -1,4 +1,4 @@
-Enable ssh in container
+#Enable ssh in container
 =======================
 #######   we are using debian image
 * apt-get install ssh
@@ -12,4 +12,9 @@ Enable ssh in container
 ####   update password of root user
 
 
+# Add mount volum to the present working container
+==========================
+ docker commit <containerid> <newimagename>
+ docker run -it -v <HOstdirectory>:<ContainerDir> <newimagename> --name=<newcontainername> --network="<host/bridge/other>"
+ 
 
