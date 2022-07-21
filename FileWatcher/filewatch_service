@@ -7,7 +7,7 @@
 # START #
 
 appname=FileWatcher
-directory=/IvrsProjects/file_watcher
+directory=/Projects/file_watcher
 execu=$directory/watchman.sh
 pid=$directory/$appname.pid
 logfile=$directory/$appname.log
