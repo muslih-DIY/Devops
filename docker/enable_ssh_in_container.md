@@ -8,13 +8,15 @@
 ####   Change port if rquired Port 2233
 
 
-* passwd root
 ####   update password of root user
+* passwd root
 
 
-# Add mount volum to the present working container
+
+## Add mount volum to the present working container
 ==========================
- docker commit <containerid> <newimagename>
- docker run -it -v <HOstdirectory>:<ContainerDir> <newimagename> --name=<newcontainername> --network="<host/bridge/other>"
+
+  docker commit <containerid> <newimagename>
+  docker run -it -v <HOstdirectory>:<ContainerDir> <newimagename> --name=<newcontainername> --network="<host/bridge/other>"
  
 
