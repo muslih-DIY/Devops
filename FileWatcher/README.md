@@ -21,7 +21,7 @@ watcher_work.sh --> this file will be executed every time some change is detecte
 
 filewatch_service --> this file will be help to make the application run in background as service
 
-####### in the filewatch_service change the "directory=/Projects/file_watcher" with your directory where you keep watchman.sh file
+####### in the filewatch_service change the "directory=/Projects/file_watcher" with your directory where you kept watchman.sh file
 
 please give execute permission to filewatch_service,watchman.sh
 
